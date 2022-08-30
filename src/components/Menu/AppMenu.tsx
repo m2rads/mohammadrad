@@ -70,7 +70,7 @@ function AppMenu() {
               <Button
                 sx={{ ml: "2em", fontSize: "1em" }}
                 color="inherit"
-                onClick={() => navigate("/")}
+                onClick={() => navigate("/home")}
               >
                 Home
               </Button>
