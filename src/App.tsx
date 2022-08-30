@@ -32,7 +32,7 @@ function App() {
       <Router>
         <AppMenu />
         <Routes>
-          <Route path="/mohammadrad" element={<Home />}>
+          <Route path="/mohammadrad/" element={<Home />}>
             {" "}
           </Route>
           <Route path="/mohammadrad/home" element={<Home />}>
