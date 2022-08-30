@@ -32,7 +32,7 @@ function AppMenu() {
       >
         <Button
           sx={{ fontSize: "1em" }}
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/mohammadrad/")}
           color="inherit"
         >
           &#60; M2rads &#47; &#62;
@@ -70,7 +70,7 @@ function AppMenu() {
               <Button
                 sx={{ ml: "2em", fontSize: "1em" }}
                 color="inherit"
-                onClick={() => navigate("/home")}
+                onClick={() => navigate("/mohammadrad/")}
               >
                 Home
               </Button>
