@@ -35,28 +35,28 @@ function App() {
           <Route path="/mohammadrad/" element={<Home />}>
             {" "}
           </Route>
-          <Route path="/mohammadrad/home" element={<Home />}>
+          <Route path="/mohammadrad/home/" element={<Home />}>
             {" "}
           </Route>
-          <Route path="/mohammadrad/projects" element={<Projects />}>
+          <Route path="/mohammadrad/projects/" element={<Projects />}>
             {" "}
           </Route>
           <Route
-            path="/mohammadrad/projects/:id"
+            path="/mohammadrad/projects/:id/"
             element={<ProjectDetailsDisplay />}
           >
             {" "}
           </Route>
-          <Route path="/mohammadrad/blog" element={<Blog />}>
+          <Route path="/mohammadrad/blog/" element={<Blog />}>
             {" "}
           </Route>
-          <Route path="/mohammadrad/about" element={<About />}>
+          <Route path="/mohammadrad/about/" element={<About />}>
             {" "}
           </Route>
-          <Route path="/mohammadrad/lottie" element={<DisplayLottie />}>
+          <Route path="/mohammadrad/lottie/" element={<DisplayLottie />}>
             {" "}
           </Route>
-          <Route path="/mohammadrad/*" element={<PageNotFound />}>
+          <Route path="/mohammadrad/*/" element={<PageNotFound />}>
             {" "}
           </Route>
         </Routes>
