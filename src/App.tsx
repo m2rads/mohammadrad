@@ -32,28 +32,31 @@ function App() {
       <Router>
         <AppMenu />
         <Routes>
-          <Route path="" element={<Home />}>
+          <Route path="/mohammadrad" element={<Home />}>
             {" "}
           </Route>
-          <Route path="/home" element={<Home />}>
+          <Route path="/mohammadrad/home" element={<Home />}>
             {" "}
           </Route>
-          <Route path="/projects" element={<Projects />}>
+          <Route path="/mohammadrad/projects" element={<Projects />}>
             {" "}
           </Route>
-          <Route path="/projects/:id" element={<ProjectDetailsDisplay />}>
+          <Route
+            path="/mohammadrad/projects/:id"
+            element={<ProjectDetailsDisplay />}
+          >
             {" "}
           </Route>
-          <Route path="/blog" element={<Blog />}>
+          <Route path="/mohammadrad/blog" element={<Blog />}>
             {" "}
           </Route>
-          <Route path="/about" element={<About />}>
+          <Route path="/mohammadrad/about" element={<About />}>
             {" "}
           </Route>
-          <Route path="/lottie" element={<DisplayLottie />}>
+          <Route path="/mohammadrad/lottie" element={<DisplayLottie />}>
             {" "}
           </Route>
-          <Route path="*" element={<PageNotFound />}>
+          <Route path="/mohammadrad/*" element={<PageNotFound />}>
             {" "}
           </Route>
         </Routes>
