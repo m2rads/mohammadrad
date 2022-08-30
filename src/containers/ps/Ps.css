@@ -1,0 +1,14 @@
+/* Freelance intro */
+.freelance {
+    text-align: center;
+    padding: 5em 0;
+}
+
+.freelance h1 {
+    font-size: 3.5em;
+}
+
+.freelance div {
+    padding: 2em 0;
+}
+/* End freelance */

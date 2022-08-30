@@ -1,0 +1,107 @@
+.about-hero-container {
+    background-color: #fffde7;
+}
+
+.about-hero {
+    padding: 8em 0 3em;
+    max-width: 1200px;
+    /* width: 80%; */
+    margin: 0 auto;
+    display: block;
+}
+
+/* Avatar */
+.avatar-hero {
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.avatar {
+    /* flex-grow: 1; */
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 52px 74px rgb(0 21 64 / 14%);
+    max-width: 400px;
+    margin: 0 auto 2em;
+}
+
+.avatar img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+/* Bio */
+
+.bio {
+    /* flex-grow: 1; */
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.bio h1 {
+    font-size: 35px;
+    color: #232320;
+    line-height: 150%;
+    letter-spacing: -1px;
+    margin: 0.67em 0;
+}
+
+.bio p {
+    color: #656270;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 1.5em;
+}
+
+.bio:nth-child(2) {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .bio {
+        margin: 0 2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bio:nth-child(2) {
+        max-width: 100%;
+        margin: 0 2em;
+    }
+}
+
+/* End Bio */
+
+
+/* media */
+@media (min-width: 1200px) {
+.about-hero {
+    padding: 14em 0 5em;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+}
+
+@media (min-width: 544px) {
+.about-hero {
+    padding: 8em 0 5em;
+}
+
+}

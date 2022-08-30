@@ -1,0 +1,14 @@
+.hero {
+    text-align: center;
+    padding: 7em;
+    background: linear-gradient(1deg,#eddcf6 -33.15%,#5e35b1 84.96%);
+}
+
+.hero h1 {
+    line-height: 2em;    
+    font-size: 4em;
+}
+
+.hero p {
+    font-size: 22px;
+}

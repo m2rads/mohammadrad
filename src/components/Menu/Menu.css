@@ -1,0 +1,15 @@
+/* .container :first-child {
+    margin: 0 10px;
+}
+
+.container :nth-child(2) {
+    flex-grow: 1;
+}
+
+.container:last-child {
+    text-align: right;
+    margin: 0 10px;
+} */
+.container {
+    justify-content: space-around;
+}

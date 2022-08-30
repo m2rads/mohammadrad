@@ -1,0 +1,35 @@
+.book-container {
+    text-align: center;
+    padding: 5em 0;
+}
+
+.books {
+    display: flex;
+    padding: 5em 0;
+    justify-content: center;
+}
+
+.books img {
+    box-shadow: 0 52px 74px rgb(0 21 64 / 14%);
+
+}
+
+.books > * {
+    margin: 0 5em;
+}
+
+.books div p {
+    margin-top: 2em;
+}
+
+/* Media queries */
+@media (max-width: 744px) {
+    
+    .books {
+        display: block;
+    }
+
+    .books > * {
+        margin-bottom: 2em;
+    }
+}
