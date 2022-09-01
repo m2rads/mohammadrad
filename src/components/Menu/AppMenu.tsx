@@ -104,7 +104,6 @@ function AppMenu() {
             </MenuItem>
           </Menu>
         </Box>
-
         <Box sx={{ textAlign: "right", display: { xs: "none", md: "flex" } }}>
           <Button
             sx={{ ml: "2em", fontSize: "1em" }}
