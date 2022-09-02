@@ -20,6 +20,7 @@ function Home() {
     items: [],
     isLoading: true,
     error: null,
+    displayCol: false,
   });
 
   useEffect(() => {
@@ -27,7 +28,12 @@ function Home() {
       .then((res) => res.json())
       .then((data) => {
         // console.log(data)
-        setFeatured({ items: data, isLoading: false, error: null });
+        setFeatured({
+          items: data,
+          isLoading: false,
+          error: null,
+          displayCol: false,
+        });
       });
   }, []);
 

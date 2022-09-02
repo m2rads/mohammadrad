@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import Ps from "../../containers/ps/Ps";
 import ProjectDisplay from "../../containers/Project/Dispaly/ProjectDisplay";
 import Container from "@mui/material/Container";
-import "../Blog/Blog.css";
+// import "../Blog/Blog.css";
+import "./Projects.css";
 
 function Projects() {
   const projectURL = "https://portfolio-serverside.herokuapp.com/api/projects";
@@ -10,6 +11,7 @@ function Projects() {
     items: [],
     isLoading: true,
     error: null,
+    displayCol: true,
   });
 
   useEffect(() => {
@@ -17,7 +19,12 @@ function Projects() {
       .then((res) => res.json())
       .then((data) => {
         // console.log(data)
-        setProjects({ items: data, isLoading: false, error: null });
+        setProjects({
+          items: data,
+          isLoading: false,
+          error: null,
+          displayCol: true,
+        });
       });
   }, []);
 
@@ -30,7 +37,7 @@ function Projects() {
           the recent years
         </p>
       </div>
-      <div>
+      <div className="project-container">
         <ProjectDisplay proData={projects} />
       </div>
       <Ps />

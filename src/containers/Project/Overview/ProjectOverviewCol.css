@@ -1,0 +1,24 @@
+.project-wrap {
+  margin: 0 auto;
+  position: relative;
+  width: 320px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: #efebe9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pro-image {
+  height: 100px;
+  width: 100px;
+  /* margin-left: 3em; */
+}
+
+.pro-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
