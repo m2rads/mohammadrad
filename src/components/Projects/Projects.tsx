@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import Ps from "../../containers/ps/Ps";
 import ProjectDisplay from "../../containers/Project/Dispaly/ProjectDisplay";
 import Container from "@mui/material/Container";
-// import "../Blog/Blog.css";
-import "./Projects.css";
+import "../Blog/Blog.css";
 
 function Projects() {
   const projectURL = "https://portfolio-serverside.herokuapp.com/api/projects";
@@ -37,7 +36,7 @@ function Projects() {
           the recent years
         </p>
       </div>
-      <div className="project-container">
+      <div>
         <ProjectDisplay proData={projects} />
       </div>
       <Ps />

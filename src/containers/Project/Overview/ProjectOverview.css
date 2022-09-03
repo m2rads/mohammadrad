@@ -18,7 +18,7 @@
   border: 1px solid #e5e5e5;
   margin: 0 auto;
   width: 70%;
-  background: linear-gradient(1deg, #eddcf6 -33.15%, #fff59d 84.96%);
+  /* background: linear-gradient(1deg, #eddcf6 -33.15%, #fff59d 84.96%); */
 }
 
 .project-wrapper .project-post:hover {
