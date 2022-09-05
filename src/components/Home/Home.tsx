@@ -52,7 +52,7 @@ function Home() {
                     src="http://twemoji.maxcdn.com/2/72x72/1f44b.png"
                   />
                 </span>
-                <h1 className="last">I'm a softwre developer.</h1>
+                <h1 className="last">I'm a software developer.</h1>
               </div>
               <p className="about">
                 {" "}
