@@ -35,7 +35,7 @@ function AppMenu() {
           onClick={() => navigate("/mohammadrad/")}
           color="inherit"
         >
-          &#60; M2rads &#47; &#62;
+          &#60; mhmmdrd &#47; &#62;
         </Button>
         <Box sx={{ textAlign: "right", display: { xs: "flex", md: "none" } }}>
           <IconButton
