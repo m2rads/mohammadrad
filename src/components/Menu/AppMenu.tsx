@@ -79,7 +79,7 @@ function AppMenu() {
               <Button
                 sx={{ ml: "2em", fontSize: "1em" }}
                 color="inherit"
-                onClick={() => navigate("/projects")}
+                onClick={() => navigate("/mohammadrad/projects")}
               >
                 Projects
               </Button>
@@ -88,7 +88,7 @@ function AppMenu() {
               <Button
                 sx={{ ml: "2em", fontSize: "1em" }}
                 color="inherit"
-                onClick={() => navigate("/blog")}
+                onClick={() => navigate("/mohammadrad/blog")}
               >
                 Wip
               </Button>
@@ -97,7 +97,7 @@ function AppMenu() {
               <Button
                 sx={{ ml: "2em", fontSize: "1em" }}
                 color="inherit"
-                onClick={() => navigate("/about")}
+                onClick={() => navigate("/mohammadrad/about")}
               >
                 About
               </Button>
@@ -115,21 +115,21 @@ function AppMenu() {
           <Button
             sx={{ ml: "2em", fontSize: "1em" }}
             color="inherit"
-            onClick={() => navigate("/projects")}
+            onClick={() => navigate("/mohammadrad/projects")}
           >
             Projects
           </Button>
           <Button
             sx={{ ml: "2em", fontSize: "1em" }}
             color="inherit"
-            onClick={() => navigate("/blog")}
+            onClick={() => navigate("/mohammadrad/blog")}
           >
             Wip
           </Button>
           <Button
             sx={{ ml: "2em", fontSize: "1em" }}
             color="inherit"
-            onClick={() => navigate("/about")}
+            onClick={() => navigate("/mohammadrad/about")}
           >
             About
           </Button>

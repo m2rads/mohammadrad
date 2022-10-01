@@ -4,6 +4,7 @@ import DisplayLottie from "./containers/DisplayLottie";
 import Projects from "./components/Projects/Projects";
 import Blog from "./components/Blog/Blog";
 import About from "./components/About/About";
+import Resume from "./components/Resume/Resume";
 import PageNotFound from "./components/PageNoteFound";
 import AppMenu from "./components/Menu/AppMenu";
 import Footer from "./components/Footer/Footer";
@@ -38,22 +39,28 @@ function App() {
           {/* <Route path="/home" element={<Home />}>
             {" "}
           </Route> */}
-          <Route path="/projects" element={<Projects />}>
+          <Route path="/mohammadrad/projects" element={<Projects />}>
             {" "}
           </Route>
-          <Route path="/projects/:id" element={<ProjectDetailsDisplay />}>
+          <Route
+            path="/mohammadrad/projects/:id"
+            element={<ProjectDetailsDisplay />}
+          >
             {" "}
           </Route>
-          <Route path="/blog" element={<Blog />}>
+          <Route path="/mohammadrad/blog" element={<Blog />}>
             {" "}
           </Route>
-          <Route path="/about" element={<About />}>
+          <Route path="/mohammadrad/about" element={<About />}>
             {" "}
           </Route>
-          <Route path="/lottie" element={<DisplayLottie />}>
+          {/* <Route path="/mohammadrad/resume" element={<Resume />}>
+            {" "}
+          </Route> */}
+          <Route path="/mohammadrad/lottie" element={<DisplayLottie />}>
             {" "}
           </Route>
-          <Route path="*" element={<PageNotFound />}>
+          <Route path="/mohammadrad/*" element={<PageNotFound />}>
             {" "}
           </Route>
         </Routes>
