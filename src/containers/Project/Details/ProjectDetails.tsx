@@ -3,9 +3,6 @@ import Button from "@mui/material/Button";
 import GitHub from "@mui/icons-material/GitHub";
 
 export default function ProjectDetails(prop: any) {
-  console.log("This is project detals " + prop);
-  const imageUrl = new URL(prop.data.media, import.meta.url).href;
-
   return (
     <div className="details-container">
       <div className="details">
@@ -35,7 +32,37 @@ export default function ProjectDetails(prop: any) {
       <div className="details-content">
         <div className="pro-demo">
           <h1>Project Demo</h1>
-          <img src={imageUrl} alt="demo of project" width="700" height="405" />
+          <div
+            style={{
+              height: "0",
+              paddingBottom: "calc(55.16%)",
+              position: "relative",
+              width: "100%",
+            }}
+          >
+            <iframe
+              allow="autoplay; gyroscope;"
+              allowFullScreen
+              height="100%"
+              referrerPolicy="strict-origin"
+              src={prop.data.media}
+              style={{
+                border: "0",
+                height: "100%",
+                left: "0",
+                overflow: "hidden",
+                position: "absolute",
+                top: "0",
+                width: "100%",
+              }}
+              title="Embedded content made on Kapwing"
+              width="100%"
+            ></iframe>
+          </div>
+          <p style={{ fontSize: "12px", textAlign: "right" }}>
+            Video edited on{" "}
+            <a href="https://www.kapwing.com/video-editor">Kapwing</a>
+          </p>
         </div>
         <div className="prob">
           <h1>Problem</h1>
