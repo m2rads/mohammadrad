@@ -4,7 +4,7 @@ import GitHub from "@mui/icons-material/GitHub";
 
 export default function ProjectDetails(prop: any) {
   console.log("This is project detals " + prop);
-  const imgUrl = new URL(prop.data.media, import.meta.url).href;
+  const imageUrl = new URL(prop.data.media, import.meta.url).href;
 
   return (
     <div className="details-container">
@@ -35,7 +35,7 @@ export default function ProjectDetails(prop: any) {
       <div className="details-content">
         <div className="pro-demo">
           <h1>Project Demo</h1>
-          <img src={imgUrl} alt="demo of project" width="700" height="405" />
+          <img src={imageUrl} alt="demo of project" width="700" height="405" />
         </div>
         <div className="prob">
           <h1>Problem</h1>
