@@ -30,6 +30,10 @@ export default function ProjectDetails(prop: any) {
         </div>
       </div>
       <div className="details-content">
+        <div className="prob">
+          <h1>Problem</h1>
+          <p>{prop.data.prob}</p>
+        </div>
         <div className="pro-demo">
           <h1>Project Demo</h1>
           <div
@@ -63,10 +67,6 @@ export default function ProjectDetails(prop: any) {
             Video edited on{" "}
             <a href="https://www.kapwing.com/video-editor">Kapwing</a>
           </p>
-        </div>
-        <div className="prob">
-          <h1>Problem</h1>
-          <p>{prop.data.prob}</p>
         </div>
         <div className="details-desc">
           <h1>Project Description</h1>
