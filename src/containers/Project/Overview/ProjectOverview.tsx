@@ -6,13 +6,15 @@ import "./ProjectOverview.css";
 function ProjectOverview(proDetails: any) {
   const text = proDetails.projects.desc;
   const cssColor = proDetails.projects.background;
+  const imgUrl = new URL(proDetails.projects.thumbnail, import.meta.url).href;
+
   var description = text.replace(/<[^>]+>/g, "");
   let navigate = useNavigate();
   return (
     <div className="project-wrapper">
       <a className="project-post" style={{ background: cssColor }}>
         <div className="img-wrap">
-          <img src={Programmer} />
+          <img src={imgUrl} />
         </div>
         <div className="content-wrap">
           <div className="title layout">
