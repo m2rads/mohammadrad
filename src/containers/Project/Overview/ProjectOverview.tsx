@@ -1,4 +1,3 @@
-import Programmer from "../../../assets/programmer.jpg";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";
 import "./ProjectOverview.css";
