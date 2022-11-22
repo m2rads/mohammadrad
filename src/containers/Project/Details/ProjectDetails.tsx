@@ -38,7 +38,7 @@ export default function ProjectDetails(prop: any) {
             src={prop.data.media}
             alt="demo of project"
             width="700"
-            height="400"
+            height="405"
           />
         </div>
         <div className="prob">
