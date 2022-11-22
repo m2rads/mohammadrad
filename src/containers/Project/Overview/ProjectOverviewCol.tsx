@@ -1,4 +1,3 @@
-import Programmer from "../../../assets/programmer.jpg";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";
 import "./ProjectOverview.css";
@@ -7,13 +6,15 @@ import "./ProjectOverviewCol.scss";
 function ProjectOverviewCol(proDetails: any) {
   const text = proDetails.projects.desc;
   const cssColor = proDetails.projects.background;
+  const imgUrl = new URL(proDetails.projects.thumbnail, import.meta.url).href;
+
   var description = text.replace(/<[^>]+>/g, "");
   let navigate = useNavigate();
   return (
     <div className="project-wrap" style={{ background: cssColor }}>
       <a>
         <div className="pro-image">
-          <img src={Programmer} />
+          <img src={imgUrl} />
         </div>
         <div className="col-wrap">
           <div className="col-title title layout">
