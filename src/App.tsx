@@ -42,10 +42,7 @@ function App() {
           <Route path="/mohammadrad/projects" element={<Projects />}>
             {" "}
           </Route>
-          <Route
-            path="/mohammadrad/projects/:id"
-            element={<ProjectDetailsDisplay />}
-          >
+          <Route path="/projects/:id" element={<ProjectDetailsDisplay />}>
             {" "}
           </Route>
           <Route path="/mohammadrad/blog" element={<Blog />}>

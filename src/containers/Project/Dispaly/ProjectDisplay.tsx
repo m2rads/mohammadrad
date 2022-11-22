@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import ProjectOverview from "../Overview/ProjectOverview";
 import ProjectOverviewCol from "../Overview/ProjectOverviewCol";
 import "./ProjectDisplay.css";
