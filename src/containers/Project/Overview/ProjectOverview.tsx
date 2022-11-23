@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";
 import "./ProjectOverview.css";
+import prgrammer from "../../../assets/programmer.jpg";
 
 function ProjectOverview(proDetails: any) {
   const text = proDetails.projects.desc;
   const cssColor = proDetails.projects.background;
-  const imgUrl = new URL(proDetails.projects.thumbnail, import.meta.url).href;
 
   var description = text.replace(/<[^>]+>/g, "");
   let navigate = useNavigate();
@@ -13,7 +13,7 @@ function ProjectOverview(proDetails: any) {
     <div className="project-wrapper">
       <a className="project-post" style={{ background: cssColor }}>
         <div className="img-wrap">
-          <img src={imgUrl} />
+          <img src={prgrammer} />
         </div>
         <div className="content-wrap">
           <div className="title layout">
