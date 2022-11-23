@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";
 import "./ProjectOverview.css";
 import "./ProjectOverviewCol.scss";
-import prgrammer from "../../assets/programmer.jpg";
+import prgrammer from "../../../assets/programmer.jpg";
 
 function ProjectOverviewCol(proDetails: any) {
   const text = proDetails.projects.desc;
